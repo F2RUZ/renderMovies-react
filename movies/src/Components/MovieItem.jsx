@@ -9,8 +9,8 @@ export class MovieItem extends Component {
     const { Title, Year, imdbID, Type, Poster } = this.props;
     return (
       <div className="cross">
-        <img src={Poster} className="img" />
-        <div className="card">
+        <img src={Poster} className="rasm" />
+        <div className="karta">
           <h2>{Title}</h2>
           <div>
             <span>{imdbID}</span>
